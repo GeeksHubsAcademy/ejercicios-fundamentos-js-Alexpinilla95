@@ -33,3 +33,18 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+let mayores = [];
+for (let item of gente) {
+	if (item.edad > 25) {
+		mayores.push(item);
+	}
+}
+
+console.log(mayores);
+
+/*Patron:
+
+	Se pide array -> Sacar array (crear array vacio)
+	*/

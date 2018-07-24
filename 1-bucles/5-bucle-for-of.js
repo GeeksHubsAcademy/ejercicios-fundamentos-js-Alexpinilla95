@@ -11,7 +11,7 @@ let gente = [{
     {
         nombre: 'Juan',
         edad: 35
-    },
+    },  
     {
         nombre: 'Paco',
         edad: 34
@@ -33,3 +33,13 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+	let jnames=[];
+	for (let item of gente){
+		if (item.nombre.charAt(0)==='J') {
+			jnames.push(item);
+		}
+	}
+	
+	console.log(jnames);

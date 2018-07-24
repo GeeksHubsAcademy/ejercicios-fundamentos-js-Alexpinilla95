@@ -35,3 +35,8 @@ let gente = [{
     },
 ]
 
+var jmenores=gente.filter(function (item){
+	return (item.nombre.charAt(0)=='J' && item.edad<40);
+
+});
+	console.log(jmenores);

@@ -33,3 +33,11 @@ let gente = [{
     },
 ]
 
+
+
+
+var cuatro=gente.filter(function (item){
+	return (item.nombre).length===4; 
+});
+		console.log(cuatro);
+

@@ -14,7 +14,7 @@ let arr = [];
 for (let i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
-console.log('El array original es:  arr =', arr);
+document.write('El array original es:  arr =', arr);
 
 // Aquí tu código
 
