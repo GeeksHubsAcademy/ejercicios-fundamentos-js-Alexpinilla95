@@ -8,20 +8,18 @@
 
 let duplicaNumero = (numero) => {
 	
-			if (typeof numero == 'number'){
-				document.write(numero*2);
+			if (typeof numero === 'number'){
+				return numero*2;
 				
 			}
 			else{
 				
-				document.write('Debo ser ejecutada con un numero');
+				return('Debo ser ejecutada con un numero');
 		
 			}
 }
 	
-var numero=prompt("introduce el numero que quieres duplicar");
-numero=parseInt(numero);
-duplicaNumero(numero);
+
     // Hasta aquí.
 
 

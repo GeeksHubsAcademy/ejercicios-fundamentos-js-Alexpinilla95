@@ -13,7 +13,7 @@
 let transformaArrayEnOtraConSusLongitudes = (arrayDeStrings) => {
     let arrayDeLongitudes = [];
     // Aquí tu código.  Desde aquí:
-
+    transformaArrayEnOtraConSusLongitudes.map(transformaArrayEnOtraConSusLongitudes.length);
     // Hasta aquí.
     return arrayDeLongitudes
 }

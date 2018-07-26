@@ -14,13 +14,19 @@ let arr = [];
 for (let i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
-document.write('El array original es:  arr =', arr);
+console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
 
+let suma=0;
+for (let item of arr) {
+    suma=item+suma;
+}
+console.log(suma);
+
 
 // Hasta aquí
-console.log('El total nuevo es: ', total);
+console.log('El total nuevo es: ', suma);
 
 // TEST 1
 if (typeof total === 'number') {

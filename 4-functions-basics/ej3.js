@@ -10,24 +10,26 @@
 
 let caracterInicial = (texto) => {
     // Aquí tu código.  Desde aquí:
-		    if ((typeof texto == 'string') && (texto != (''))) &&parseInt(texto)==NaN {
+		    if (typeof texto === 'string') {
 	
-			document.write(texto.charAt(0));
+				return(texto.charAt(0));
 		
 		
 			}
-			else if (texto == (''){
+			else if (texto === ''){
+
+				return('Debo ser ejecutada con un string no vacío');
+
+			}
+			else if (typeof texto !== 'string'){
 				
-			document.write("Debo ser ejecutada con un string no vacío");
+				return('Debo ser ejecutada con un string');
 				
 			}
-			if parseInt(texto)!='NaN'{
-			document.write("Debo ser ejecutada con un string");
+
     // Hasta aquí.
 }
 
-var texto = prompt("introduce una string");
-caracterInicial(texto);
 
 let test = require('../test.js');
 //  test(functionTotest, [argumento1,argumento2, etc..],  expectedOutput) 

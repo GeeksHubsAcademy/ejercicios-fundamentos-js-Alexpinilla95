@@ -5,7 +5,7 @@
 
 
 // Aquí tu código
-
+var arr = [{'name':'pepito','age':25},{'name':'pepito','age':25},{'name':'Jepe','age':20}]
 
 // Hasta aquí
 

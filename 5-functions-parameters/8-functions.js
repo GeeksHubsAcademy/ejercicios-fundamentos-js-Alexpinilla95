@@ -8,6 +8,18 @@
 
 // Aquí tu código
 
+function convierteEurosEnPesetas(euros){
+
+    if (typeof euros==='number'){
+        var pesetas=euros*168;
+        return pesetas;
+    }
+    else {
+        throw new Error('El programa solo funciona con numeros');
+    }
+}
+
+
 // Hasta aquí
 
 

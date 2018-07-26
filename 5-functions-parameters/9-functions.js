@@ -9,6 +9,15 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
+function muestraPorConsolaEurosEnPesetas(euros){
+
+    if (typeof euros==='number'){
+        var pesetas=euros*168;
+    }
+    else {
+        throw new Error('El programa solo funciona con numeros');
+    }
+}
 
 
 // Hasta aquí
